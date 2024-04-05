@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --font-poppins: Poppins;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-4xl: 23px;
+  --font-size-17xl: 36px;
+  --font-size-base-5: 15.5px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-teal: #16807a;
+  --color-aquamarine: rgba(0, 255, 224, 0.1);
+  --color-gainsboro: #dedede;
+
+  /* Border radiuses */
+  --br-15xl: 34px;
+  --br-34xl: 53px;
+  --br-44xl: 63px;
+  --br-5xs: 8px;
+}

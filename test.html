@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styles pour les versions desktop */
+        .desktop-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .desktop-header .nav-menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .desktop-header .nav-menu ul li {
+            margin-right: 20px;
+        }
+
+        .desktop-header .get-started .btn {
+            background-color: #16807a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        /* Styles pour les versions mobile */
+        .mobile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .mobile-header .logo {
+            flex: 1;
+        }
+
+        .mobile-header .menu-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+        }
+
+        .menu-toggle span {
+            display: block;
+            height: 2px;
+            background-color: #333;
+        }
+
+        .mobile-nav {
+            display: none;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .mobile-nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mobile-nav ul li {
+            margin-bottom: 10px;
+        }
+
+        .mobile-nav ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .desktop-header {
+                display: none;
+            }
+
+            .mobile-header {
+                display: flex;
+            }
+
+            .mobile-nav {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="desktop-header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-menu get-started">
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <header class="mobile-header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Rest of the HTML content -->
+</body>
+</html>
