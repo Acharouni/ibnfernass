@@ -37,6 +37,20 @@
   box-sizing: border-box;
   align-items: center;
 }
+.menu1 {
+  width: 513px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 49px;
+  left: calc(50% - 517px);
+  width: 1033px;
+  justify-content: space-between;
+  padding: 11px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
 .top-navigation {
   display: flex;
   flex-direction: row;
@@ -140,15 +154,16 @@ margin-right: 20px;
   margin: 0 auto;
 }
 .footer {
-  position: absolute;
-  top: 2728px;
   left: 0;
   background-color: rgba(255, 255, 255, 0.12);
-  width: 2000px;
+  width: 100vw;
   height: 471px;
   text-align: left;
   font-size: var(--font-size-base-5);
   font-family: var(--font-rubik);
+  
+    margin: auto 0px 0px 0px;
+
 }
 .about-services-blogs-contact {
   width: 178.5px;
@@ -770,15 +785,20 @@ margin-right: 20px;
   }
   .subscribe-form-parent {
     gap: 15px 62px;
+  
   }
   .ibn-firnas {
     font-size: var(--font-size-base);
   }}
+
+ .ibn-firnas-2021-all-rights-wrapper{
+  margin: 0px auto;
+ } 
 .ibn-firnas2 {
-  position: absolute;
-  top: 419px;
+  align-items: center;
   left: calc(50% - 143px);
   line-height: 167.09%;
+  
 }
 a{
   color: #DEDEDE;
@@ -805,14 +825,13 @@ a{
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+/* Create two equal columns that floats next to each other 
 .column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-/* Should be removed. Only for demonstration */
-}
+ width: 300px;
+    height: 40%;
+    margin: 0px auto;
+/* Should be removed. Only for demonstration 
+}*/
 
 /* Clear floats after the columns */
 .row:after {
