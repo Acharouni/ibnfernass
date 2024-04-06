@@ -60,7 +60,7 @@ line-height: normal;
 margin-right: 20px; 
 
 }
-.get-started .btn {
+.desktop-header .get-started .btn {
             background-color: #16807a;
             color: white;
             padding: 10px 20px;
@@ -744,7 +744,7 @@ margin-right: 20px;
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 60px) {
   .top-navigation {
     gap: 49px 24px;
   }
@@ -774,6 +774,15 @@ margin-right: 20px;
   .ibn-firnas {
     font-size: var(--font-size-base);
   }}
+  .column {
+  width: 300px;
+  display: flex;
+  border: #ffffff;
+  flex-direction: column;
+  padding: 0 2em;
+  height: 30px;
+  align-self: stretch;
+}
 .ibn-firnas2 {
   position: absolute;
   top: 419px;
@@ -785,50 +794,3 @@ a{
   text-decoration: none;
 }
 
-.layout {
-  width: 1366px;
-  height: 768px;
-
-  display: grid;
-  grid:
-    "header" auto
-    "main" 1fr
-    "footer" auto
-    / 1fr;
-  gap: 8px;
-}
-
-.header { grid-area: header; }
-.main { grid-area: main; }
-.footer { grid-area: footer; }
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-/* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-#__p__our_activites {
-	top: 846px;
-	left: 525px;
-	width: 428.6px;
-	height: 112.6px;
-	overflow: hidden;
-	font-family: Poppins;
-	font-size: 56px;
-	font-weight: bold;
-	text-align: left;
-	color:#FFFFFF;
-}
