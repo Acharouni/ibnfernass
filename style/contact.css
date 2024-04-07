@@ -1,0 +1,21 @@
+.layout3 {
+  width: auto;
+
+
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  gap: 8px;
+}
+#__p__drones {
+	top: 1794px;
+	left: 501px;
+	width: 248.6px;
+	height: 112.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 56px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}

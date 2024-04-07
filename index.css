@@ -845,3 +845,20 @@ a{
 	text-align: left;
 	color:#FFFFFF;
 }
+.reg-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: #feffff;
+  width: 40px;
+  height: 37px;
+}
+.image-1-icon,
+.reg {
+  position: absolute;
+  top: 16px;
+  left: 1054px;
+  width: 40px;
+  height: 37px;
+}
