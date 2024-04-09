@@ -1,0 +1,131 @@
+.aboutblog {
+  position: absolute;
+  top: 289px;
+  left: 155px;
+  width: 520px;
+  height: 53px;
+}
+.a-future-empowered {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 597px;
+  height: 84px;
+}
+.titleblog {
+  width: 597px;
+  position: relative;
+  height: 84px;
+  z-index: 0;
+}
+.descriptionblog,
+.the-immense-potential {
+  width: 652px;
+  position: absolute;
+  height: 79px;
+}
+.the-immense-potential {
+  top: 0;
+  left: 0;
+  line-height: 167.09%;
+  display: inline-block;
+}
+.descriptionblog {
+  margin: 0 !important;
+  top: 84px;
+  left: -7px;
+  z-index: 1;
+  font-size: 20px;
+  color: #dedede;
+  font-family: var(--font-rubik);
+}
+.right-aboutblog {
+  position: absolute;
+  top: 324px;
+  left: 100px;
+  width: 520px;
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 4px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.right-welcome-icon {
+  margin-top: 194px;
+  margin-left: 870px;
+  width: 249px;
+  height: 387px;
+}
+.headerblog {
+  width: 100%;
+  position: relative;
+  height: 830px;
+  text-align: left;
+  font-size: 32px;
+  color: #fff;
+  font-family: var(--font-poppins);
+}
+  .div {
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+  }
+  .div-2 {
+    display: flex;
+    gap: 7px;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .div-3 {
+    background-color: #16807a;
+    border-radius: 50%;
+    align-self: start;
+    margin-top: 114px;
+    width: 16px;
+    height: 15px;
+  }
+  .div-4 {
+    border-radius: 200px;
+    border-color: rgba(221, 12, 142, 0.56);
+    border-style: solid;
+    border-width: 4px;
+    display: flex;
+    gap: 0px;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 30px 20px;
+  }
+  .img {
+    aspect-ratio: 0.64;
+    object-fit: auto;
+    object-position: center;
+    width: fit-content;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 331.386px;
+    height: 526.748px;
+    border-radius: 200px;}
+
+  .div-5 {
+    background-color: #34c9de;
+    border-radius: 50%;
+    align-self: start;
+    margin-top: 5px;
+    width: 15px;
+    height: 16px;
+  }
+  .div-6 {
+    background-color: #16807a;
+    border-radius: 50%;
+    align-self: end;
+    margin-top: 410px;
+    width: 16px;
+    height: 16px;
+  }

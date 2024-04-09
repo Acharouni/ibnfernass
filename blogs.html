@@ -1,162 +1,203 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
-    />
-  </head>
-  <body>
-    <div class="ai-tech-technology-landing-p">
-      <img class="background-icon" alt="" src="./public/background.svg" />
-<header class="desktop-header" id="features">
-<nav>
-<div class="mobile-menu" id="mobile-menu">
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./style/blogs.css" />
+  <link rel="stylesheet" href="./style/animation.css" />
+  <link rel="stylesheet" href="./style/cartdron.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+  <link rel="stylesheet" href="./3d/styledrone.css">
+    <script src="./3d/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="desktop-header" id="features">
+      <nav>
+        <div class="mobile-menu" id="mobile-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="solution.html">Solutions</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="academy.html">Get Started</a></li>
+          </ul>
+        </div>
 
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="solution.html">Solutions</a></li>
-      <li><a href="blogs.html">Blogs</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="academy.html">Get Started</a></li>
-    </ul>
-  </div>
+        <img class="show logo" src="./img/logo/logo.png" alt="Logo">
+        <span class="show togg" onclick="showMenu()">&Congruent;</span>
+        <span class="showhide hid"  onclick="NoTshowMenu()">&times;</span>
+
+        <nav class="menu">
+          <div class="top-navigation" id="desktop">
+            <img class="logo-icon" src="./img/logo/logo.png" alt="Logo">
+            <a href="index.html" class="items">Home</a>
+            <a href="about.html" class="items">About</a>
+            <a href="services.html" class="items">Services</a>
+            <a href="solution.html" class="items">Solutions</a>
+            <a href="blogs.html" class="items active">Blogs</a>
+            <a href="contact.html" class="items">Contact</a>
+            <div class="button">
+              <div class="register">
+                <div class="register-child"></div>
+                <b class="get-started"><a href="academy.html">Get Started</a></b>
+              </div>
+            </div>
+                   <div class="reg">
+            <div class="reg-item"></div>
+          </div><a href="product.html"><img class="image-1-icon" alt="" src="./img/dji.png" /></a> 
+    </div>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------->
+
   
-       <img class="show logo" src="./img/logo/logo.png" alt="Logo">
-       <span class="show togg" onclick="showMenu()">&Congruent;</span>
-       <span class="showhide hid"  onclick="NoTshowMenu()">&times;</span>
+<!-- ----------------------------------------------------------------------------------------------------------------->
 
-   
 
-    <nav class="menu">
-    <div class="top-navigation" id="desktop">
-        <img class="logo-icon" src="./img/logo/logo.png" alt="Logo">
-        <a href="index.html" class="items">Home</a>
-        <a href="about.html" class="items">About</a>
-        <a href="services.html" class="items">Services</a>
-        <a href="solution.html" class="items">Solutions</a>
-        <a href="blogs.html" class="items active">Blogs</a>
-        <a href="contact.html" class="items">Contact</a>
-        <div class="button">
-        <div class="register">
-          <div class="register-child"></div>
-          <b class="get-started"><a href="academy.html">Get Started</a></b>
+
+
+  <div class="headerblog">
+      <div class="aboutblog"></div>
+      <div class="right-aboutblog">
+        <div class="titleblog">
+          <a
+            class="a-future-empowered"
+            href="https://ifdc.om/blogs/a-future-empowered-by-drones"
+            target="_blank"
+            >A Future Empowered by Drones</a
+          >
+        </div>
+        <div class="descriptionblog">
+          <div class="the-immense-potential">
+            The immense potential of drone technology in its effectiveness of
+            cost and time is only just being realized. With this rising
+            recognition in the potential of drone use across various industries
+            on a global scale, the global commercial drone market is expected to
+            reach $47.38 Billion by 2030 (strategicmarketresearch.com).
+          </div>
         </div>
       </div>
-    </div>  
-    </nav>
-</header>
-  <script src="script.js"></script>
-
-
-
-
-
- <footer class="footer">
-    <div class="subscribe-form-parent">
-          <div class="subscribe-form">
-            <div class="email-field">
-              <div class="subscribe-btn">
-                <b class="stay-information">Stay Information</b>
-                <div class="sign-up-for">Sign up for our newsletter</div>
-              </div>
-              <div class="subscribe-wrapper">
-                <div class="subscribe">
-                  <img
-                    class="rectangle-icon"
-                    alt=""
-                    src="./public/rectangle.svg"
-                  />
-
-                  <div class="subscribe-inner">
-                    <div class="enter-your-email-here-parent">
-                       <input class="column" type="email" placeholder="Enter Your Email Here"/>
-                    </div>
-                  </div>
-                  <div class="subscribe1">
-                    <div class="subscribe-child"></div>
-                    <b class="subscribe2">Subscribe </b>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="i-b-n-f-i-r-n-a-s"></div>
-        </div>
-        <div class="about-services-menu-wrapper">
-          <div class="about-services-menu">
-            <div class="i-b-n-f-i-r-n-a-s-details">
-              <div class="ibn-firnas-parent">
-                <b class="ibn-firnas">IBN FIRNAS</b>
-                <div class="dar-al-manal">
-                 <span style="color: white;">
-    <a href="https://maps.app.goo.gl/XEDY6mPzB1PM6yLx8" style="color: white;">Al Manal Building, Office Number 402 4th Floor Madinat Sultan Qaboos OM, 100, Oman.</a>
-  </span>
-                </div>
-              </div>
-              <div class="phone-email-details-wrapper">
-                <div class="phone-email-details">
-                  <b class="information">Information</b>
-                  <div class="about-services-link">
-                    <div class="our-blog"><a href="blogs.html">Our Blog</a></div>
-                    <div class="term-and-condition"><a href="solution.html">Our Solutions</a></div>
-                    <div class="term-and-condition"><a href="services.html">Our Services</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="contact-btn-wrapper">
-                <div class="contact-btn">
-                  <b class="contact">Contact</b>
-                  <div class="phone-968-9177-1779-parent">
-                    <div class="phone-968-container">
-                      <span class="phone">Phone :</span>
-                      <span class="span"><a href="tel:+96891771779">(+968) 9177 1779</a></span>
-                    </div>
-                    <div class="email-examplecom-container">
-                      <span class="email">instagram :</span>
-                      <span class="examplecom"><a href="https://www.instagram.com/ibnfirnas.om?igshid=YmMyMTA2M2Y%3D">ibnfirnas.om</a></span>
-              
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="i-b-n-f-i-r-n-a-s-details-inner">
-                <div class="menu-parent">
-                  <b class="menu1"><a href="index.html#features">Menu</a></b>
-                  <div class="frame-wrapper">
-                    <div class="about-parent">
-                      <div class="about"><a href="about.html">About</a></div>
-                      <div class="services"><a href="about.html">Services</a></div>
-                      <div class="contact1"><a href="about.html">Contact</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ibn-firnas-2021-all-rights-wrapper">
-              <div class="ibn-firnas2">
-                IBN FIRNAS © 2024-2027. All Rights Reserved
-              </div>
-            </div>
-          </div>
-        </div>
-  </footer>
-    
+      <div class="right-welcome-icon">
+      <div class="div-2">
+    <div class="div-3"></div>
+    <div class="div-4">
+      <img
+        loading="lazy"
+        src="./img/ibnfirnas.png"
+        class="img"
+      />
+      <div class="div-5"></div>
     </div>
-  </body>
+  </div>
+  <div class="div-6"></div>
+</div>
+      </div>
+    </div>
+
+<!-- ----------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<script src="./3d/scriptdrone.js"></script>
+<script src="script.js"></script>
+  <footer class="footer">
+    <div class="subscribe-form-parent">
+      <div class="subscribe-form">
+        <div class="email-field">
+          <div class="subscribe-btn">
+            <b class="stay-information">Stay Information</b>
+            <div class="sign-up-for">Sign up for our newsletter</div>
+          </div>
+          <div class="subscribe-wrapper">
+            <div class="subscribe">
+              <img class="rectangle-icon" alt="" src="./public/rectangle.svg" />
+              <div class="subscribe-inner">
+                <div class="enter-your-email-here-parent">
+                  <input class="column" type="email" placeholder="Enter Your Email Here"/>
+                </div>
+              </div>
+              <div class="subscribe1">
+                <div class="subscribe-child"></div>
+                <b class="subscribe2">Subscribe </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="i-b-n-f-i-r-n-a-s"></div>
+    </div>
+    <div class="about-services-menu-wrapper">
+      <div class="about-services-menu">
+        <div class="i-b-n-f-i-r-n-a-s-details">
+          <div class="ibn-firnas-parent">
+            <b class="ibn-firnas">IBN FIRNAS</b>
+            <div class="dar-al-manal">
+              <span style="color: white;">
+                <a href="https://maps.app.goo.gl/XEDY6mPzB1PM6yLx8" style="color: white;">Al Manal Building, Office Number 402 4th Floor Madinat Sultan Qaboos OM, 100, Oman.</a>
+              </span>
+            </div>
+          </div>
+          <div class="phone-email-details-wrapper">
+            <div class="phone-email-details">
+              <b class="information">Information</b>
+              <div class="about-services-link">
+                <div class="our-blog"><a href="blogs.html">Our Blog</a></div>
+                <div class="term-and-condition"><a href="solution.html">Our Solutions</a></div>
+                <div class="term-and-condition"><a href="services.html">Our Services</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-btn-wrapper">
+            <div class="contact-btn">
+              <b class="contact">Contact</b>
+              <div class="phone-968-9177-1779-parent">
+                <div class="phone-968-container">
+                  <span class="phone">Phone :</span>
+                  <span class="span"><a href="tel:+96891771779">(+968) 9177 1779</a></span>
+                </div>
+                <div class="email-examplecom-container">
+                  <span class="email">instagram :</span>
+                  <span class="examplecom"><a href="https://www.instagram.com/ibnfirnas.om?igshid=YmMyMTA2M2Y%3D">ibnfirnas.om</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="i-b-n-f-i-r-n-a-s-details-inner">
+            <div class="menu-parent">
+              <b class="menu1"><a href="index.html#features">Menu</a></b>
+              <div class="frame-wrapper">
+                <div class="about-parent">
+                  <div class="about"><a href="about.html">About</a></div>
+                  <div class="services"><a href="about.html">Services</a></div>
+                  <div class="contact1"><a href="about.html">Contact</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ibn-firnas-2021-all-rights-wrapper">
+          <div class="ibn-firnas2">
+            IBN FIRNAS © 2024-2027. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+  
+</body>
 </html>
