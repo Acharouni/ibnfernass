@@ -514,7 +514,7 @@
  width: 344px;
   height: 210px;
   z-index: 2;
-  background:linear-gradient(180deg, rgba(22, 128, 122, 0.08), #16807a);;
+  background:linear-gradient(180deg, rgba(22, 128, 122, 0.08), #16807a);
   backdrop-filter: blur(24px);
   border-radius: 10px;
   overflow: hidden;

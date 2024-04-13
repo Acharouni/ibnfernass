@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./style/Get A Quote.css" />
+  <link rel="stylesheet" href="./style/animation.css" />
+  <link rel="stylesheet" href="./style/cartdron.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+  <link rel="stylesheet" href="./3d/styledrone.css">
+    <script src="./3d/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+ 
+
+    <header class="desktop-header" id="features">
+      <nav>
+        <div class="mobile-menu" id="mobile-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="solution.html">Solutions</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="academy.html">Get Started</a></li>
+          </ul>
+        </div>
+
+        <img class="show logo" src="./img/logo/logo.png" alt="Logo">
+        <span class="show togg" onclick="showMenu()">&Congruent;</span>
+        <span class="showhide hid"  onclick="NoTshowMenu()">&times;</span>
+
+        <nav class="menu">
+          <div class="top-navigation" id="desktop">
+            <img class="logo-icon" src="./img/logo/logo.png" alt="Logo">
+            <a href="index.html" class="items">Home</a>
+            <a href="about.html" class="items">About</a>
+            <a href="services.html" class="items">Services</a>
+            <a href="solution.html" class="items">Solutions</a>
+            <a href="blogs.html" class="items">Blogs</a>
+            <a href="contact.html" class="items">Contact</a>
+            <div class="button">
+              <div class="register">
+                <div class="register-child"></div>
+                <b class="get-started"><a href="academy.html">Get Started</a></b>
+              </div>
+            </div>
+                   <div class="reg">
+            <div class="reg-item"></div>
+          </div><a href="product.html"><img class="image-1-icon" alt="" src="./img/dji.png" /></a> 
+    </div>
+          </div>
+        </nav>
+      </nav>
+    </header>
+      <section class="layout1" style="display: flex; margin-top: 200px ;">
+<div class="WhatWeDoOurCoreValues" style="margin-bottom: 10%; width: 623px; height: 100px; text-align: center; margin-top: 10px ;"><span style="color: #16807A; font-size: 55px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Get A Quote<br/></span><span style="color: white; font-size: 16px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Enter Product info And Get a Quotation<br/></span></div>
+
+
+ </section>   
+
+   
+<section class="layout3" style="display: flex; margin-top: 10px ;">
+<div class="mt-4 flex flex-col bg-gray-900 rounded-lg p-4 shadow-sm">
+    <div class="mt-4 flex flex-row space-x-2">
+        <div class="flex-1">
+            <label class="text-white" for="productName">Product Name</label>
+            
+            <!-- Container for dropdown toggle and dropdown content -->
+            <div class="relative">
+                <!-- Dropdown toggle button -->
+                <button onclick="toggleDropdown()" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1 focus:outline-none">
+                    Select Product
+                </button>
+                
+                <!-- Dropdown content (hidden by default) -->
+                <div id="productDropdown" class="hidden absolute right-0 mt-2 bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1 w-full">
+                    <!-- Dropdown options -->
+                    <ul>
+                        <li>Product Option 1</li>
+                        <li>Product Option 2</li>
+                        <li>Product Option 3</li>
+                        <!-- Add more product options as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-1">
+            <label class="text-white" for="state">Quantity</label>
+            <input placeholder="Quantity" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="Quantity" type="number">
+        </div>
+    </div>
+   <div class="mt-4 flex flex-row space-x-2">
+        <div class="flex-1">
+            <label class="text-white" for="First Name">First Name</label>
+            <input placeholder="First Name" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1 Dropdown" id="First Name" >
+        </div>
+
+        <div class="flex-1">
+            <label class="text-white" for="state">Last Name</label>
+            <input placeholder="Last Name" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="Last Name" type="text">
+            
+        </div>
+    </div>
+
+
+    <!-- Other form fields -->
+    <div class="mt-4">
+        <label class="text-white" for="Email Adresse">Email Adresse</label>
+        <input placeholder="Email Adresse" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" type="Email">
+    </div>
+
+    <div class="mt-4">
+        <label class="text-white" for="address">Address</label>
+        <textarea placeholder="Your address" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="address"></textarea>
+    </div>
+
+    <div class="mt-4 flex flex-row space-x-2">
+        <div class="flex-1">
+            <label class="text-white" for="city">City</label>
+            <input placeholder="Your city" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="city" type="text">
+        </div>
+
+        <div class="flex-1">
+            <label class="text-white" for="zip">ZIP</label>
+            <input placeholder="Your ZIP code" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="zip" type="text">
+        </div>
+    </div>
+      <div class="mt-4">
+        <label class="text-white" for="address">Message</label>
+        <textarea placeholder="Message" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="Message"></textarea>
+    </div>
+
+
+    <div class="mt-4 flex justify-end">
+        <button class="bg-white text-black rounded-md px-4 py-1 hover:bg-blue-500 hover:text-white transition-all duration-200" type="submit">Apply for quotation</button>
+    </div>
+</div>
+
+<script>
+    // Function to toggle product dropdown visibility
+    function toggleDropdown() {
+        var productDropdown = document.getElementById('productDropdown');
+        productDropdown.classList.toggle('hidden');
+    }
+</script>
+
+  
+   </section>
+<!-----------------------------------Payloads SECTION------------------------------------------------------------>
+<section class="layout3" style="display: flex; margin-top: 15% ; justify-content: center; text-align: center;">
+<div id="__p__oman_office" >
+	OMAN OFFICE<br/>
+</div>
+</section>
+<!-----------------------------------Inspection Solution SECTION------------------------------------------------------------>
+<section class="layout3" style="display: flex; margin-top: 10% ; justify-content: center; ">
+<div>
+<div class="cardcontact">
+
+  <div class="bg">
+  <div class="fa-3x">
+  <span style="display: flex; margin-top: 10% ; margin-left: 42%;  color: rgb(255, 255, 255);">
+  <i class="fa-solid fa-location-dot fa-beat"></i>
+</span>
+</div>
+   <span style="display: flex; margin-top: 10% ;  color: rgb(255, 255, 255);">
+  <i><p style="    margin-left: 15%;
+    color: white;
+    font-size: 23px;
+    font-family: Poppins;
+    word-wrap: break-word;
+    width: max-content;" >DAR AL MANAL BUILDING</p></i>
+</span>
+</div>
+  <div class="blob"></div>
+</div>
+</div>
+
+<div style="margin-left: 20%;">
+
+
+
+
+<div class="cardcontact" style="text-align: center;">
+
+
+
+  <div class="bg">
+  <div class="fa-3x">
+  <span style="display: flex; margin-top: 10% ; margin-left: 42%;  color: rgb(255, 255, 255);">
+  <i class="fa-solid fa-phone fa-beat"></i>
+</span>
+</div>
+   <span style="display: flex; margin-top: 10% ;  color: rgb(255, 255, 255);">
+  <i><p style="    margin-left: 35%;
+    color: white;
+    font-size: 23px;
+    font-family: Poppins;
+    word-wrap: break-word;
+    width: max-content;" >(+968) 9177 1779</p></i>
+</span>
+</div>
+  <div class="blob"></div>
+</div>
+</div>
+
+</section>
+
+
+
+
+  
+<script src="./3d/scriptdrone.js"></script>
+  <script src="script.js"></script>
+
+  <footer class="footer">
+    <div class="subscribe-form-parent">
+      <div class="subscribe-form">
+        <div class="email-field">
+          <div class="subscribe-btn">
+            <b class="stay-information">Stay Information</b>
+            <div class="sign-up-for">Sign up for our newsletter</div>
+          </div>
+          <div class="subscribe-wrapper">
+            <div class="subscribe">
+              <img class="rectangle-icon" alt="" src="./public/rectangle.svg" />
+              <div class="subscribe-inner">
+                <div class="enter-your-email-here-parent">
+                  <input class="column" type="email" placeholder="Enter Your Email Here"/>
+                </div>
+              </div>
+              <div class="subscribe1">
+                <div class="subscribe-child"></div>
+                <b class="subscribe2">Subscribe </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="i-b-n-f-i-r-n-a-s"></div>
+    </div>
+    <div class="about-services-menu-wrapper">
+      <div class="about-services-menu">
+        <div class="i-b-n-f-i-r-n-a-s-details">
+          <div class="ibn-firnas-parent">
+            <b class="ibn-firnas">IBN FIRNAS</b>
+            <div class="dar-al-manal">
+              <span style="color: white;">
+                <a href="https://maps.app.goo.gl/XEDY6mPzB1PM6yLx8" style="color: white;">Al Manal Building, Office Number 402 4th Floor Madinat Sultan Qaboos OM, 100, Oman.</a>
+              </span>
+            </div>
+          </div>
+          <div class="phone-email-details-wrapper">
+            <div class="phone-email-details">
+              <b class="information">Information</b>
+              <div class="about-services-link">
+                <div class="our-blog"><a href="blogs.html">Our Blog</a></div>
+                <div class="term-and-condition"><a href="solution.html">Our Solutions</a></div>
+                <div class="term-and-condition"><a href="services.html">Our Services</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-btn-wrapper">
+            <div class="contact-btn">
+              <b class="contact">Contact</b>
+              <div class="phone-968-9177-1779-parent">
+                <div class="phone-968-container">
+                  <span class="phone">Phone :</span>
+                  <span class="span"><a href="tel:+96891771779">(+968) 9177 1779</a></span>
+                </div>
+                <div class="email-examplecom-container">
+                  <span class="email">instagram :</span>
+                  <span class="examplecom"><a href="https://www.instagram.com/ibnfirnas.om?igshid=YmMyMTA2M2Y%3D">ibnfirnas.om</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="i-b-n-f-i-r-n-a-s-details-inner">
+            <div class="menu-parent">
+              <b class="menu1"><a href="index.html#features">Menu</a></b>
+              <div class="frame-wrapper">
+                <div class="about-parent">
+                  <div class="about"><a href="about.html">About</a></div>
+                  <div class="services"><a href="about.html">Services</a></div>
+                  <div class="contact1"><a href="about.html">Contact</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ibn-firnas-2021-all-rights-wrapper">
+          <div class="ibn-firnas2">
+            IBN FIRNAS © 2024-2027. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+  
+</body>
+</html>
