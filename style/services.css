@@ -192,7 +192,7 @@
   border-radius: var(--br-lg);
   display: none;
 }
-p {
+.ptitle {
     width: 30vw; /* Set width to 50% of the viewport width */
     margin: 0 auto; /* Center the paragraph horizontally */
     padding: 20px; /* Optional: Add padding to the paragraph */
