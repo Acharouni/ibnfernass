@@ -146,7 +146,7 @@ margin-right: 20px;
   margin: 0 auto;
 }
 .footer {
-  
+  width: 100%;
   left: 0;
   background-color: rgba(255, 255, 255, 0.12);
   width: 100%;
@@ -470,12 +470,12 @@ margin-right: 20px;
   box-sizing: border-box;
 }
 .subscribe-form {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   padding: 0 var(--padding-2xl) 0 var(--padding-xl);
-  max-width: 100%;
+
 }
 .i-b-n-f-i-r-n-a-s {
   height: 1px;
