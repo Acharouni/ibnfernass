@@ -668,11 +668,11 @@ margin-right: 20px;
 }
 .i-b-n-f-i-r-n-a-s-details {
   align-self: stretch;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  max-width: 95%;
+  max-width: 100%;
   gap: var(--gap-xl);
 }
 .ibn-firnas1 {
@@ -701,8 +701,8 @@ margin-right: 20px;
   gap: 60px;
 }
 .about-services-menu-wrapper {
-  width: 1426px;
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
