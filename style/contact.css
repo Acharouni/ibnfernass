@@ -10,6 +10,15 @@
       .div20 {
         padding-right: 20px;
       }
+      .IbnFirnasFounded {
+    /* width: 1017px; */
+    /* height: 216px; */
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    word-wrap: break-word;
+}
     }
     .div-2 {
       align-items: start;
@@ -36,7 +45,17 @@
       .div-4 {
         font-size: 40px;
       }
+      .layout3 {
+     flex-direction: column;
+
+      }
+      .ct{
+        margin-left: none;
+      }
     }
+    .ct{
+        margin-left: 20%;
+      }
     .div-5 {
       border-radius: 20px;
       background: linear-gradient(90deg, #16807a 0%, #041a19 100%);
@@ -308,10 +327,9 @@
   color: var(--color-white);
 }
 .IbnFirnasFounded{
-  width: 1017px; 
-  height: 216px; 
+  width: 60%; 
   text-align: center; 
-  color: white; 
+  color: #16807a; 
   font-size: 24px; 
   font-family: Poppins; 
   font-weight: 700; 
@@ -320,7 +338,6 @@
 #__p__oman_office {
 	top: 657px;
 	left: 514px;
-	width: 451.6px;
 	height: 100.6px;
 	overflow: hidden;
 	text-align: center; 

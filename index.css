@@ -3,10 +3,11 @@
 
 
 .logo-icon {
-  width: 135px;
+  width: 250px;
   position: relative;
-  height: 48px;
+  height: 100px;
   object-fit: contain;
+  padding-right: 10%;
 } 
 
 .menu {
@@ -48,7 +49,7 @@
   flex-direction: row;
   position: relative;
   top: 32px;
-  left: calc(50% - 517px);
+  left: calc(50% - 550px);
   width: 100%;
   justify-content: space-between;
   padding: 11px 0;
@@ -59,7 +60,7 @@
   color: #DEDEDE;
 text-align: center;
 font-family: Poppins;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -104,10 +105,22 @@ margin-right: 20px;
 }
 .mobile-menu {
   display: none;
-    position: absolute;
+   
     top: 120px;
-    width: 45%;
+    width: 100%;
     background-color: #16807a;
+      position: relative;
+ 
+ 
+  padding: 10px;
+  margin: auto;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+
+  transition: opacity .4s;
   }
 
   
@@ -859,15 +872,16 @@ a{
   width: 40px;
   height: 37px;
 }
-.image-1-icon,
-.reg {
-  position: absolute;
-  top: 16px;
-  left: 1054px;
-  width: 40px;
-  height: 37px;
-}
 
+.image-1-icon {
+ 
+  top: 30%;
+ border-radius: 20%;
+  width: 70px;
+  height: 70px;
+  padding: 10%;
+  
+}
   
 .form {
   display: flex;
@@ -1199,3 +1213,86 @@ a{
 
 }
 
+.cardso {
+  display: flex;
+  height: 70px;
+  width: 350px;
+}
+
+.cardso svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.cardso .social-link1,.cardso .social-link2,.cardso .social-link3,.cardso .social-link4,.cardso .social-link5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
+}
+
+.cardso svg {
+  transform: scale(1);
+}
+
+.cardso .social-link1:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  animation: bounce_613 0.4s linear;
+}
+
+.cardso .social-link2:hover {
+  background-color: #242c34;
+  animation: bounce_613 0.4s linear;
+}
+
+.cardso .social-link3:hover {
+  background-color: #5865f2;
+  animation: bounce_613 0.4s linear;
+}
+
+.cardso .social-link4:hover {
+  background-color: #0a66c2;
+  animation: bounce_613 0.4s linear;
+}
+
+.cardso .social-link5:hover {
+  background-color: #ff8000;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
