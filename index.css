@@ -106,7 +106,7 @@ margin-right: 20px;
   display: none;
     position: absolute;
     top: 120px;
-    width: 100%;
+    width: 45%;
     background-color: #16807a;
   }
 
@@ -1179,5 +1179,23 @@ a{
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+@media (max-width: 995px){
+.card {
+    margin-bottom: 10%;
+    gap: 3rem;
+}
+.card4 {
+    margin-bottom: 10%;
+    gap: 3rem;
+}
+ .i-b-n-f-i-r-n-a-s-details {
+        flex-direction: column; /* Aligne les éléments verticalement (en colonne) sur les petits écrans */
+        align-items: stretch; /* Permet à chaque élément de s'étirer pour remplir la largeur disponible */
+        justify-content: flex-start; /* Aligne les éléments en haut du conteneur */
+        gap: var(--gap-sm); /* Réduit l'espacement entre les éléments sur les petits écrans */
+    }
+
 }
 

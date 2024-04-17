@@ -6,7 +6,7 @@
       font-weight: 700;
       justify-content: center;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div20 {
         padding-right: 20px;
       }
@@ -19,7 +19,7 @@
       flex-direction: column;
       padding: 9px 80px 0 0;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div-2 {
         padding-right: 20px;
       }
@@ -32,7 +32,7 @@
       margin-top: 39px;
       font: 48px Poppins, sans-serif;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div-4 {
         font-size: 40px;
       }
@@ -46,17 +46,21 @@
       padding: 24px 45px;
       font: 20px Poppins, sans-serif;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div-5 {
         margin-top: 40px;
         padding: 0 20px;
       }
+      .IbnFirnasFounded {
+           max-width: 550px; /* Réduire la taille de police pour les petits écrans */
+        padding: 15px; /* Réduire l'espace intérieur pour les petits écrans */
     }
+    
 
     * {
   box-sizing: border-box;
 }
-
+    }
 
 
 /* Clear floats after the columns */
@@ -126,7 +130,7 @@
 	background:rgba(17,59,57,1);
 }
 .layout3 {
-  width: auto;
+  width: 100%;
 
 
   display: grid;
@@ -308,6 +312,7 @@
   color: var(--color-white);
 }
 .IbnFirnasFounded{
+
   width: 1017px; 
   height: 216px; 
   text-align: center; 
@@ -477,3 +482,22 @@
   height: 220px;
   opacity: 1;
 }
+
+.msg{
+    text-align: center;
+}
+ @media (max-width: 995px) {
+  .layouthome2 {
+    grid-template-columns: auto; /* Réinitialiser les colonnes à 'auto' pour une mise en page flexible */
+    gap: 5px; /* Réduire l'espacement entre les éléments */
+  }
+     .img3 {
+       max-width: 100%;
+    }
+    .msg {
+        font-size: 36px; /* Réduire la taille de la police pour une meilleure lisibilité sur les petits écrans */
+        margin-bottom: 5%; /* Réduire l'espacement en bas pour un aspect plus compact */
+        text-align: center; 
+    }
+  
+ }

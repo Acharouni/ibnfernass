@@ -6,7 +6,7 @@
       font-weight: 700;
       justify-content: center;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div20 {
         padding-right: 20px;
       }
@@ -19,7 +19,7 @@
       flex-direction: column;
       padding: 9px 80px 0 0;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div-2 {
         padding-right: 20px;
       }
@@ -32,7 +32,7 @@
       margin-top: 39px;
       font: 39px Poppins, sans-serif;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div-4 {
         font-size: 40px;
       }
@@ -46,7 +46,7 @@
       padding: 24px 45px;
       font: 20px Poppins, sans-serif;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 995px) {
       .div-5 {
         margin-top: 40px;
         padding: 0 20px;
@@ -65,22 +65,7 @@
   display: table;
   clear: both;
 }
-.layout {
-  width: 1366px;
-  height: 768px;
 
-  display: grid;
-  grid:
-    "header" auto
-    "main" 1fr
-    "footer" auto
-    / 1fr;
-  gap: 8px;
-}
-
-.header { grid-area: header; }
-.main { grid-area: main; }
-.footer { grid-area: footer; }
 .layout1 {
   width: auto;
   height: 620px;
@@ -127,8 +112,6 @@
 }
 .layout3 {
   width: auto;
-
-
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: 100%;
@@ -798,7 +781,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     gap: 20px;
     display: flex;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div13 {
       flex-direction: column;
       align-items: stretch;
@@ -812,7 +795,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     width: 58%;
     margin-left: 0px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .column13 {
       width: 100%;
     }
@@ -827,7 +810,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     margin: auto 0;
     padding: 9px 20px 0;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-213 {
       max-width: 100%;
       margin-top: 40px;
@@ -838,7 +821,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     font: 48px Poppins, sans-serif;
     color: #34c9de;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-313 {
       max-width: 100%;
     }
@@ -847,7 +830,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     margin-top: 36px;
     font: 32px Poppins, sans-serif;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-413 {
       max-width: 100%;
     }
@@ -859,7 +842,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     line-height: 26px;
     margin-top: 35px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-513 {
       max-width: 100%;
     }
@@ -875,7 +858,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     justify-content: center;
     padding: 11px 28px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-613 {
       margin-top: 40px;
       white-space: initial;
@@ -889,7 +872,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     width: 42%;
     margin-left: 20px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .column-213 {
       width: 100%;
     }
@@ -899,7 +882,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     flex-grow: 1;
     gap: 20px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-713 {
       margin-top: 40px;
       flex-wrap: wrap;
@@ -919,7 +902,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
    width: 200px ;
     height: 16px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-913 {
       margin-top: 40px;
     }
@@ -959,7 +942,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     width:  150px;
     height: 16px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-1213 {
       margin-top: 40px;
     }
@@ -968,7 +951,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     gap: 20px;
     display: flex;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div14 {
       flex-direction: column;
       align-items: stretch;
@@ -982,7 +965,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     width: 44%;
     margin-left: 0px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .column14 {
       width: 100%;
     }
@@ -993,7 +976,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     flex-direction: column;
     padding: 80px 0 46px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-214 {
       max-width: 100%;
       margin-top: 40px;
@@ -1006,9 +989,20 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     width: 100%;
     margin-top: 30px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .img14 {
       max-width: 100%;
+    }
+ 
+    #rectangle_12344{
+         width: 334px;
+         height: 450px;
+    }
+    .layouthome{
+     margin-top: 10%; /* Réduire la marge supérieure sur les petits écrans */
+        margin-left: 0; /* Supprimer la marge gauche sur les petits écrans */
+        flex-direction: column; /* Aligner les éléments en colonne sur les petits écrans */
+        align-items: center; /* Centrer les éléments horizontalement sur les petits écrans */
     }
   }
   .column-214 {
@@ -1018,7 +1012,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     width: 50%;
     margin-left: 20px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .column-214 {
       width: 100%;
     }
@@ -1030,7 +1024,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     flex-direction: column;
     padding: 8px 20px 23px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-314 {
       max-width: 100%;
       margin-top: 40px;
@@ -1040,17 +1034,18 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     color: #34c9de;
     font: 600 24px Poppins, sans-serif;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-414 {
       max-width: 100%;
     }
+
   }
   .div-514 {
     color: #fff;
     margin-top: 33px;
     font: 700 56px Poppins, sans-serif;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-514 {
       max-width: 100%;
       font-size: 40px;
@@ -1061,7 +1056,7 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     margin: 61px 32px 0 0;
     font: 400 12px/20px Rubik, sans-serif;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-614 {
       max-width: 100%;
       margin: 40px 10px 0 0;
@@ -1073,12 +1068,17 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
     gap: 20px;
     padding: 4px 80px 4px 0;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 995px) {
     .div-714 {
       max-width: 100%;
       flex-wrap: wrap;
       padding-right: 20px;
       margin-top: 40px;
+    }
+    .img0{
+      display: flexbox; 
+      margin-top: 15%; 
+      margin-left: 10%;
     }
   }
   .div-814 {
@@ -1169,4 +1169,68 @@ background: url('path/to/your/image.jpg') lightgray 50% / cover no-repeat;
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(197, 194, 194);
+}
+
+  .layouthome {
+  display: flex ; 
+  margin-top: 15%; 
+  margin-left: 10%;/* Réduire la marge gauche */
+  }
+  .layouthome2 {
+   width: auto;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  gap: 8px;
+  }
+
+  @media (max-width: 995px) {
+  .layouthome2 {
+    grid-template-columns: auto; /* Réinitialiser les colonnes à 'auto' pour une mise en page flexible */
+    gap: 5px; /* Réduire l'espacement entre les éléments */
+  }
+     .img3 {
+       max-width: 100%;
+    }
+    .msg {
+        font-size: 36px; /* Réduire la taille de la police pour une meilleure lisibilité sur les petits écrans */
+        margin-bottom: 5%; /* Réduire l'espacement en bas pour un aspect plus compact */
+        text-align: center; 
+    }
+        #__p__drones {
+        top: auto; /* Réinitialiser la position verticale pour permettre le flux normal du document */
+        left: auto; /* Réinitialiser la position horizontale pour permettre le flux normal du document */
+        width: 100%; /* Faire en sorte que l'élément occupe toute la largeur disponible */
+        height: auto; /* Réinitialiser la hauteur pour conserver les proportions de l'élément */
+        font-size: 32px; /* Réduire la taille de la police pour une meilleure lisibilité sur les petits écrans */
+        text-align: center; /* Centrer le texte pour une meilleure présentation sur les appareils mobiles */
+    }
+     .i-b-n-f-i-r-n-a-s-details {
+        flex-direction: column; /* Aligne les éléments verticalement (en colonne) sur les petits écrans */
+        align-items: stretch; /* Permet à chaque élément de s'étirer pour remplir la largeur disponible */
+        justify-content: flex-start; /* Aligne les éléments en haut du conteneur */
+        gap: var(--gap-sm); /* Réduit l'espacement entre les éléments sur les petits écrans */
+    }
+     .containercard {
+        flex-direction: column; /* Aligne les éléments en colonne sur les petits écrans */
+        align-items: stretch; /* Étire les éléments pour remplir la largeur du conteneur */
+        justify-content: center; /* Centre les éléments verticalement sur les petits écrans */
+        padding: 20px; /* Ajoute un espace intérieur pour un meilleur espacement sur les petits écrans */
+    }
+     .ibn-firnas2 {
+        left: 50%; /* Positionne l'élément à 50% de la largeur du conteneur parent */
+       
+        text-align: center; /* Centre le texte horizontalement sur les petits écrans */
+    }
+    .card{
+      gap: 3rem;
+    }
+ 
+}
+
+.msg{
+  
+    text-align: center; 
+   
+
 }
